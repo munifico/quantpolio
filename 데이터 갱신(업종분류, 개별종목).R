@@ -83,4 +83,4 @@ down_ind = POST(down_url, query = list(code = otp),
   html_text() %>% 
   read_csv()
 
-write.csv(down_sector, 'data/krx_ind.csv')
+write.csv(down_ind, 'data/krx_ind.csv')
